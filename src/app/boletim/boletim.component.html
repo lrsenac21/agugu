@@ -1,0 +1,22 @@
+   <div class="tabela">
+
+       <table border="1">
+           
+           <tr>
+               <td>Nome</td>
+               <td>Nota</td>
+               <td>Resultado</td>
+            </tr>
+            <tr *ngFor="let a of alunos">
+                <td>{{a.nome}} </td>
+                <td>{{a.nota}} </td>
+                <td [ngStyle]="{'color': alunosburro(a.nota) === 'Aprovado' ? 'green' : 'red'}">
+                    {{ alunosburro(a.nota) }}
+                  </td>
+            </tr>
+            
+        </table>
+    </div> 
+
+
+            

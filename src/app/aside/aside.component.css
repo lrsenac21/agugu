@@ -1,0 +1,12 @@
+aside {
+    width: 12rem; /* Ajuste o valor conforme necessário */
+    background-color: yellow;
+    padding: 10px;
+    height: 900px;
+  }
+
+aside h1{
+    color:black;
+    border: 1px solid black;
+    font-size: 15px;
+}

@@ -1,0 +1,12 @@
+
+header{
+    background-color: blue;
+    width: 100%;
+    height: 2rem;
+}
+header .meio{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 7px;
+}
